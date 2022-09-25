@@ -47,6 +47,9 @@ body{
 }
 .quote {
     margin-bottom: 48px;
+    padding-left: 58px;
+    min-height: 30px;
+    background: url("../img/icons/braces.svg")  no-repeat 0 0;
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
@@ -57,12 +60,16 @@ body{
 }
 .list_text {
     margin-bottom: 24px;
+    line-height: 160%;
 }
 .list_elements {
-    margin: 0px 0px 20px 32px;
+    margin-bottom: 20px;
 }
 .list_elements li{
-    padding-bottom: 4px;
+    padding-left: 32px;
+    margin-bottom: 4px;
+    min-height: 26px;
+    background: url("../img/icons/check.svg")  no-repeat 0 0;
 }
 .text_article .text{
     margin-bottom: 38px;
